@@ -2,7 +2,7 @@
 MagicMirror module for external web widgets
 
 ## Screenshot
-
+![Screenshot](https://raw.githubusercontent.com/eouia/MMM-Widget/master/screenshot.png)
 
 ## Installation
 ```shell
@@ -95,15 +95,15 @@ git clone https://github.com/eouia/MMM-Widget
 ```
 
 ### Tip
-You could have a problem of syntax error, when your script codes are too long and multi-lines.
-Use these way;
+You could have a problem of syntax error, when your script codes have too long and multi lines.
+Use these ways;
 - ES5 Style
 ```javascript
 html: "your very very very very very very \
 long long long long long long script",
 ```
 
-- ES6 Style
+- ES6 Style (Recommended. You don't need to escape quotation and double quotation marks.)
 ```javascript
 html: `your very very very very very very
 long long long long long long script`,
