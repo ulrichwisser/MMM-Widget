@@ -42,7 +42,7 @@ Module.register("MMM-Widget",{
 
       var iFrame = document.createElement("iframe")
       iFrame.id = "WIDGET_" + i
-      iFrame.className = "widget_item"
+      iFrame.className = "widget_item module"
       iFrame.style.width = widget.width
       iFrame.style.height = widget.height
       iFrame.style.border = "none"
@@ -77,4 +77,5 @@ Module.register("MMM-Widget",{
       }
     }
   }
+
 })
